@@ -11,8 +11,8 @@ NESTED TABLE gifts STORE AS Gift_tab;
 /
 
 INSERT INTO GIFT_CATALOG Values (1, 100, gifts_type('Stickers', 'Pens', 'Candy'));
-INSERT INTO GIFT_CATALOG Values (2, 500, gifts_type('Art Supplies', 'Craft Supplies', 'Chocolate Box'));
-INSERT INTO GIFT_CATALOG Values (3, 1000, gifts_type('Teddy Bear', 'Train Set'));
+INSERT INTO GIFT_CATALOG Values (2, 1000, gifts_type('Art Supplies', 'Craft Supplies', 'Chocolate Box'));
+INSERT INTO GIFT_CATALOG Values (3, 5000, gifts_type('Teddy Bear', 'Train Set'));
 
 /
 COMMIT;
